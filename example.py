@@ -1,6 +1,5 @@
 from langchain.cache import SQLiteCache
 from langchain.chains import APIChain
-from langchain.chains.api import open_meteo_docs
 from langchain.globals import set_llm_cache
 from langchain_openai import OpenAI
 import os
